@@ -20,5 +20,14 @@ public class Main {
         } else if (clientDeviceYear > 2015 && OS == 0) {
             System.out.println("Установите новую версию приложения для iOS по ссылке");
         }
+
+        //ex3
+        int year = 2020;
+        if ((year % 4 == 0) && (year % 100 != 0) || year % 400 == 0) {
+            System.out.println( year + " год является високосным");
+        } else {
+            System.out.println( year + " год не является високосным");
+        }
+
     }
 }
